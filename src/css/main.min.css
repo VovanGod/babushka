@@ -121,4 +121,7 @@ body {
   margin: 0 auto;
 }
 
-/* Blocks *//*# sourceMappingURL=main.min.css.map */
+/* Blocks */
+header {
+  position: absolute;
+}/*# sourceMappingURL=main.min.css.map */
