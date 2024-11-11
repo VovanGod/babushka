@@ -89,7 +89,7 @@ legend {
 }
 
 :root {
-  --container-width: 1200px;
+  --container-width: 1400px;
   --container-padding: 20px;
 }
 
@@ -100,7 +100,7 @@ html {
 
 body {
   position: relative;
-  background-color: darkcyan;
+  background-color: rgb(0, 0, 0);
   color: #fff;
   font-family: "DM Sans", sans-serif;
   max-width: 100%;
