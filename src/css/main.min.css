@@ -89,8 +89,10 @@ legend {
 }
 
 :root {
-  --container-width: 1400px;
-  --container-padding: 20px;
+  --color-beige: rgb(241, 217, 195);
+  --color-light: rgb(255, 252, 247);
+  --color-pink: rgb(254, 240, 231);
+  --color-brown: rgb(204, 169, 149);
 }
 
 html {
@@ -100,7 +102,7 @@ html {
 
 body {
   position: relative;
-  background-color: rgb(0, 0, 0);
+  background-color: var(--color-light);
   color: #fff;
   font-family: "DM Sans", sans-serif;
   max-width: 100%;
@@ -115,13 +117,130 @@ body {
 }
 
 .container {
-  padding: 0 var(--container-padding);
-  max-width: var(--container-width);
   width: 100%;
   margin: 0 auto;
 }
 
 /* Blocks */
-header {
+.header {
+  position: sticky;
+  top: 0;
+  background: var(--color-beige);
+}
+.header-container {
+  max-width: 1560px;
+  padding: 25px 20px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .logo img {
+  width: 140px;
+}
+.header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 120px;
+     -moz-column-gap: 120px;
+          column-gap: 120px;
+}
+.header nav ul a {
+  position: relative;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+  padding-bottom: 6px;
+  -webkit-transition: all 0.08s ease-in-out;
+  transition: all 0.08s ease-in-out;
+}
+.header nav ul a:after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: rgb(255, 129, 129);
+  border-radius: 2px;
   position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-transition: width 0.15s ease-in-out;
+  transition: width 0.15s ease-in-out;
+}
+.header nav ul a:hover {
+  color: rgb(255, 102, 102);
+}
+.header nav ul a:hover:after {
+  width: 100%;
+}
+.header-catalog {
+  padding: 10px 14px;
+  border: 2px transparent solid;
+  border-radius: 12px;
+  color: rgb(255, 129, 129);
+  font-size: 28px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+.header-catalog:hover {
+  border: 2px rgb(255, 129, 129) solid;
+}
+
+.front-block {
+  position: relative;
+  padding-top: 112px;
+  width: 100%;
+}
+.front-block .picture {
+  position: absolute;
+  top: 0;
+}
+.front-block .inf {
+  position: relative;
+  z-index: 2;
+  padding: 60px 40px;
+  border-radius: 70px;
+  background: rgb(255, 252, 247);
+  max-width: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  row-gap: 50px;
+}
+.front-block h1 {
+  font-size: 52px;
+  color: #ff8181;
+}
+.front-block .knitting {
+  width: 80px;
+}
+.front-block .subtitle {
+  max-width: 300px;
+  font-size: 20px;
+  color: #000;
+  text-align: center;
 }/*# sourceMappingURL=main.min.css.map */
