@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/VovanGod/babushka/static/css/main.b7d8b2cd.css",
+    "main.js": "/VovanGod/babushka/static/js/main.9c3afb53.js",
+    "index.html": "/VovanGod/babushka/index.html",
+    "main.b7d8b2cd.css.map": "/VovanGod/babushka/static/css/main.b7d8b2cd.css.map",
+    "main.9c3afb53.js.map": "/VovanGod/babushka/static/js/main.9c3afb53.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7d8b2cd.css",
+    "static/js/main.9c3afb53.js"
+  ]
+}
