@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/babushka.git/static/css/main.b7d8b2cd.css",
-    "main.js": "/babushka.git/static/js/main.9c3afb53.js",
-    "index.html": "/babushka.git/index.html",
-    "main.b7d8b2cd.css.map": "/babushka.git/static/css/main.b7d8b2cd.css.map",
-    "main.9c3afb53.js.map": "/babushka.git/static/js/main.9c3afb53.js.map"
+    "main.css": "/babushka/static/css/main.b7d8b2cd.css",
+    "main.js": "/babushka/static/js/main.9c3afb53.js",
+    "index.html": "/babushka/index.html",
+    "main.b7d8b2cd.css.map": "/babushka/static/css/main.b7d8b2cd.css.map",
+    "main.9c3afb53.js.map": "/babushka/static/js/main.9c3afb53.js.map"
   },
   "entrypoints": [
     "static/css/main.b7d8b2cd.css",
